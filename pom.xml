@@ -7,6 +7,10 @@
     <version>1.0-SNAPSHOT</version>
     <name>CharlieWebDemo Maven Webapp</name>
     <url>http://maven.apache.org</url>
+
+    <properties>
+        <spring.version>4.3.8.RELEASE</spring.version>
+    </properties>
     <dependencies>
 
         <!-- junit测试包-->
@@ -28,7 +32,7 @@
         <dependency>
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
-            <version>6.0.6</version>
+            <version>5.1.27</version>
         </dependency>
 
         <!--spring相关包-->
